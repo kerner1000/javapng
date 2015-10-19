@@ -1,11 +1,40 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>9</version>
+	</parent>
 	<groupId>com.github.javapng</groupId>
 	<artifactId>javapng</artifactId>
 	<version>2.1.0-SNAPSHOT</version>
+	<url>https://github.com/kerner1000/javapng</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<licenses>
+  </licenses>
+	<developers>
+		<developer>
+			<id>kerner</id>
+			<name>Alexander Kerner</name>
+			<organization>SilicoSciences</organization>
+			<organizationUrl>http://www.silico-sciences.com</organizationUrl>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:https://github.com/kerner1000/javapng</connection>
+		<developerConnection>scm:git:https://github.com/kerner1000/javapng</developerConnection>
+		<url>https://github.com/kerner/javapng</url>
+		<tag>HEAD</tag>
+	</scm>
 	<build>
-	<sourceDirectory>javapng2/src/main</sourceDirectory>
+		<sourceDirectory>javapng2/src/main</sourceDirectory>
 		<pluginManagement>
 			<plugins>
 				<plugin>
